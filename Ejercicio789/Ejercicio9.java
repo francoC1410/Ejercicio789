@@ -16,7 +16,8 @@ public class Ejercicio9 {
         String sexo = DatosDelTrabajador.next();
         System.out.print(" edad: ");
         int edad = DatosDelTrabajador.nextInt();
-        
+        System.out.println(" experiencia de trabajo: ");
+        int experiencia = DatosDelTrabajador.nextInt();
 
 
         LinkedList<String> lista1 = new LinkedList<>();
@@ -27,7 +28,7 @@ public class Ejercicio9 {
 
         LinkedList<Integer> lista2 = new LinkedList<>();
         lista2.add(edad);
-        lista2.add(documento);
+
         System.out.println(lista2);
 
 
